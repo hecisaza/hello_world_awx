@@ -9,7 +9,7 @@
 
     - name: Pause for 5 minutes to build app cache
       ansible.builtin.pause:
-        minutes: 360
+        minutes: 1
       register: output
 
     - debug:
